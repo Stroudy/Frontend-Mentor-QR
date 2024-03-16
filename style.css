@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d6e2f0;
+  font-family: "Outfit";
+}
+
+.qr-container {
+  width: 20rem;
+  height: 31.063rem;
+  background-color: #fff;
+  margin-inline: auto;
+  margin-top: 9.5rem;
+  border-radius: 22px;
+  padding: 1rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 13px;
+}
+h1 {
+  color: #1f3251;
+  font-weight: 700;
+  font-size: 1.375rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #7b879d;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Media Query */
+/* Media Query */
+/* Media Query */
+
+@media only screen and (max-width: 430px) {
+  body {
+    .qr-container {
+      margin-top: 1rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .qr-container {
+    width: 18rem;
+    height: 29rem;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .qr-container {
+    width: 16rem;
+    height: 28.5rem;
+  }
+}
